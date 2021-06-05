@@ -1,0 +1,92 @@
+/*header*/
+.header-mainbox {
+    width: 100%;
+    height: 580px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(198, 218, 218, 0.39);
+  display: flex;
+  justify-content: space-evenly;
+ z-index: 1;
+ position: fixed;
+}
+.logo {
+  height: 70px;
+  opacity: 100;
+}
+.nav-li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 600px;
+  height: 40px;
+  color: rgba(94, 206, 65, 0.61);
+}
+
+/* images-animation*/
+.background-photo{
+    background-image: url(../images/tskaltubo.jpg);
+    width: 100%;
+    height: 100%;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    z-index: 2;
+}
+
+
+
+/*section*/
+.section{
+    width: 100%;
+    height: 205px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-box{
+   width: 250px;
+   height: 100%;
+  background-color: rgba(240, 240, 240, 0.068);
+   
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.icon{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-users{
+    font-size: 50px;
+    color: rgba(76, 43, 226, 0.342);
+}
+.h2-section{
+    font-size: 25px;
+    margin-top: 10px;
+}
+ .p-section{
+     font-size: 15px;
+     margin-top: 15px;
+ }
+ .fa-globe-europe{
+     color: chartreuse;
+     font-size: 50px;
+ }
+
+ /*footer*/
+ .footer{
+     width: 100%;
+     height: 355px;
+  background-color: black;
+     
+ }
