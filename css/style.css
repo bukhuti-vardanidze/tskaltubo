@@ -8,16 +8,13 @@
   width: 100%;
   height: 80px;
   background-color: #fff;
-display: flex;
+  display: flex;
   justify-content: space-evenly;
  z-index: 1;
  position: fixed;
  
 }
  
-
-  
-  
 
 .logo {
   height: 70px;
@@ -26,10 +23,10 @@ display: flex;
 .nav-li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
   width: 600px;
-  height: 40px;
+  height: 50px;
   color: rgba(94, 206, 65, 0.61);
 }
 a{
@@ -37,8 +34,8 @@ a{
 
 }
  .nav-li :hover {
-     color: rgb(21,159,65);
-    color: linear-gradient(90deg, rgba(21,159,65,0.8914916308320203) 24%, rgba(0,255,175,1) 100%);
+     color: rgb(20, 119, 51);
+     font-size: 15px;
 }
 
 /* images-animation*/
@@ -55,7 +52,7 @@ a{
 
 
 
-/*section*/
+                         /*section*/
 .section{
     width: 100%;
    height: 205px;
@@ -86,6 +83,11 @@ a{
     font-size: 50px;
     color: rgba(76, 43, 226, 0.342);
 }
+  .fa-users :hover {
+      color: blueviolet;
+      font-size: 60px;
+  }
+
 .h2-section{
     font-size: 25px;
     margin-top: 10px;
@@ -291,4 +293,54 @@ a{
 
                           /*page - 3 */
  
-                          
+ .hotel-section{
+    max-width: 1170px;
+    width: 100%;
+    height:1500px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+ }  
+ .hotel-h{
+     font-size: 30px;
+     color: rgb(32, 32, 32);
+     margin-bottom: 10px;
+ }
+ .hotel{
+     width: 100%;
+ }
+ .hotel-p {
+     font-size: 15px;
+     color: rgb(4, 97, 20); 
+    margin: 10px 5px;
+     
+    }
+    .read-more{
+        background-color: rgb(82, 108, 182);
+        width: 450px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0px;
+        transition: ease-in;
+        margin-bottom: 35px;
+    }
+    .read-more :hover{
+        width: 550px;
+    }
+    .hotel-container{
+        width: 1170px;
+        height: 250px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-evenly;
+       }
+       .hotel-photo{
+           width: 250px;
+       }
