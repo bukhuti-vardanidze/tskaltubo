@@ -302,7 +302,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
  }  
  .hotel-h{
      font-size: 30px;
@@ -315,7 +315,7 @@ a{
  .hotel-p {
      font-size: 15px;
      color: rgb(4, 97, 20); 
-    margin: 10px 5px;
+     margin: 7px 5px;
      
     }
     .read-more{
@@ -333,6 +333,15 @@ a{
     .read-more :hover{
         width: 550px;
     }
+    .read-more-p{
+        color: rgb(11, 99, 15);
+    }
+    .read-more-p :hover{
+      font-size: 25px;
+      color: black  ;
+
+    }
+
     .hotel-container{
         width: 1170px;
         height: 250px;
