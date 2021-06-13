@@ -286,7 +286,7 @@ a {
   color: rgb(9, 158, 41);
 }
 
-/*page - 3 */
+                                                   /*page - 3 */
 
 .hotel-section {
   max-width: 1170px;
@@ -417,6 +417,7 @@ input[type="submit"]:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 15px;
+  border-radius: 15px;
 }
 
 .col-25 {
@@ -445,5 +446,34 @@ input[type="submit"]:hover {
       
       max-width: 1170px;
       margin: 0 auto;
+      
 
-  }                        
+  }       
+  
+  
+  /*section-5*/
+  .about-me{
+   width: 1170px;
+   height: 470px;
+   
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 15px;
+  }
+  .about-me-inf{
+     max-width: 350px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     
+  }
+  .me{
+    width: 100%;
+    border-radius: 50px;
+    border-bottom: blue;
+  }
