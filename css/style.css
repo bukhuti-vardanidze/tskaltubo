@@ -476,4 +476,62 @@ input[type="submit"]:hover {
     width: 100%;
     border-radius: 50px;
     border-bottom: blue;
-  }
+  } 
+
+   /* scetion-5*/
+   .contact-animation{
+    
+     position: relative;
+     max-width: 1170px;
+     height: 600px;
+     margin: 15px auto;
+     
+   }
+   .background-an{
+     position: absolute;
+     width: 100%;
+   }
+   /*ვიცი რომ ვარღვევ სურათის ნორმალურ ფორმას :D */
+   .car-an{
+   /*  background-image: url(../images/car-an.png);*/
+     position: absolute;
+     height: 217px;
+     bottom: 15px;
+     z-index: 2;
+     transition-timing-function: ease;
+     animation: car-animation 10s infinite;
+   }
+    @keyframes car-animation{
+      0% {left : 50px }
+      100% {left : 650px }
+
+    }
+
+    .p-an{
+      position: absolute;
+      font-size: 35px;
+      transition-timing-function: ease;
+      animation: p-animation 7s infinite;
+    }
+    @keyframes p-animation{
+      10% {color:red; left:0px; top:15px; }
+      60% {color:rgb(180, 35, 199); left:40%; top:0px; }
+      80% {color:rgb(92, 17, 179); left:60%; top:15px; }
+      100% {color: rgb(39, 107, 196); left : 650px ; top: 0px;}
+
+    }
+    .girl-an{
+      position: absolute;
+      width: 235px;
+      height: 245px;
+      bottom: 140px;
+      transition-timing-function: ease;
+      animation: car-animation 7s infinite;
+    }
+
+    @keyframes girl-animation{
+      0% {left : 50px }
+      100% {left : 650px }
+
+    }
+
