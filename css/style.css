@@ -28,10 +28,10 @@
   color: rgba(94, 206, 65, 0.61);
 }
 a {
-  color: rgba(94, 206, 65, 0.61);
+  color: rgba(25, 71, 14, 0.774);
 }
 .nav-li :hover {
-  color: rgb(20, 119, 51);
+  color: rgb(74, 199, 16);
   font-size: 15px;
 }
 
@@ -286,7 +286,7 @@ a {
   color: rgb(9, 158, 41);
 }
 
-                                                   /*page - 3 */
+/*page - 3 */
 
 .hotel-section {
   max-width: 1170px;
@@ -326,10 +326,11 @@ a {
   margin-bottom: 35px;
 }
 .read-more :hover {
-  width: 550px;
+  width: 50%;
+  color: rgb(13, 192, 147);
 }
 .read-more-p {
-  color: rgb(18, 19, 18);
+  color: rgb(4, 80, 4);
 }
 .read-more-p :hover {
   font-size: 25px;
@@ -346,10 +347,75 @@ a {
 }
 .hotel-photo {
   width: 250px;
+  border-radius: 25px;
 }
 .hotel-photo :hover {
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
 }
+
+/*activities*/
+/*section-1*/
+.activities-inf {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+}
+.activities-p {
+  width: 50%;
+  padding-top: 155px;
+  padding-left: 25px;
+  align-items: center;
+  background-color: #cccccc2b;
+}
+
+.activites-image {
+  background-image: url(../images/tskalt.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*section-2*/
+.activities-sect-2 {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  margin-top: 15px;
+}
+.activites-image-2 {
+  background-image: url(../images/spring-6-interier.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.activities-read-more {
+  width: 220px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  font-size: 15px;
+  margin-left: 45px;
+}
+
+ 
+
+
+
+
+
+
+
 
 /*contact-page*/
 
@@ -432,106 +498,117 @@ input[type="submit"]:hover {
   margin-top: 6px;
 }
 
-
-
 .row:after {
   content: "";
   display: table;
   clear: both;
- }
+}
 
-                          /*section-4*/
-  .map{
-    
-      
-      max-width: 1170px;
-      margin: 0 auto;
-      
+/*section-5*/
+.map {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
-  }       
-  
-  
-  /*section-5*/
-  .about-me{
-   width: 1170px;
-   height: 470px;
-   
-   margin: 0 auto;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   margin-top: 15px;
+/*section-5*/
+.about-me {
+  width: 1170px;
+  height: 470px;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.about-me-inf {
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.me {
+  width: 100%;
+  border-radius: 50px;
+  border-bottom: blue;
+}
+
+/* scetion-5*/
+.contact-animation {
+  position: relative;
+  max-width: 1170px;
+  width: 100%;
+  height: 600px;
+  margin: 15px auto;
+}
+.background-an {
+  position: absolute;
+  width: 100%;
+}
+/*ვიცი რომ ვარღვევ სურათის ნორმალურ ფორმას :D */
+.car-an {
+  /*  background-image: url(../images/car-an.png);*/
+  position: absolute;
+  height: 217px;
+  bottom: 15px;
+  z-index: 2;
+  transition-timing-function: ease;
+  animation: car-animation 10s infinite;
+}
+@keyframes car-animation {
+  0% {
+    left: 50px;
   }
-  .about-me-inf{
-     max-width: 350px;
-     width: 100%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     
+  100% {
+    left: 650px;
   }
-  .me{
-    width: 100%;
-    border-radius: 50px;
-    border-bottom: blue;
-  } 
+}
 
-   /* scetion-5*/
-   .contact-animation{
-    
-     position: relative;
-     max-width: 1170px;
-     height: 600px;
-     margin: 15px auto;
-     
-   }
-   .background-an{
-     position: absolute;
-     width: 100%;
-   }
-   /*ვიცი რომ ვარღვევ სურათის ნორმალურ ფორმას :D */
-   .car-an{
-   /*  background-image: url(../images/car-an.png);*/
-     position: absolute;
-     height: 217px;
-     bottom: 15px;
-     z-index: 2;
-     transition-timing-function: ease;
-     animation: car-animation 10s infinite;
-   }
-    @keyframes car-animation{
-      0% {left : 50px }
-      100% {left : 650px }
+.p-an {
+  position: absolute;
+  font-size: 35px;
+  transition-timing-function: ease;
+  animation: p-animation 7s infinite;
+}
+@keyframes p-animation {
+  0% {
+    color: red;
+    left: 0px;
+    top: 15px;
+  }
+  60% {
+    color: rgb(180, 35, 199);
+    left: 40%;
+    top: 0px;
+  }
+  80% {
+    color: rgb(92, 17, 179);
+    left: 60%;
+    top: 15px;
+  }
+  100% {
+    color: rgb(39, 107, 196);
+    left: 650px;
+    top: 0px;
+  }
+}
+.girl-an {
+  position: absolute;
+  width: 235px;
+  height: 245px;
+  bottom: 140px;
+  transition-timing-function: ease;
+  animation: car-animation 7s infinite;
+}
 
-    }
-
-    .p-an{
-      position: absolute;
-      font-size: 35px;
-      transition-timing-function: ease;
-      animation: p-animation 7s infinite;
-    }
-    @keyframes p-animation{
-      10% {color:red; left:0px; top:15px; }
-      60% {color:rgb(180, 35, 199); left:40%; top:0px; }
-      80% {color:rgb(92, 17, 179); left:60%; top:15px; }
-      100% {color: rgb(39, 107, 196); left : 650px ; top: 0px;}
-
-    }
-    .girl-an{
-      position: absolute;
-      width: 235px;
-      height: 245px;
-      bottom: 140px;
-      transition-timing-function: ease;
-      animation: car-animation 7s infinite;
-    }
-
-    @keyframes girl-animation{
-      0% {left : 50px }
-      100% {left : 650px }
-
-    }
-
+@keyframes girl-animation {
+  0% {
+    left: 50px;
+  }
+  100% {
+    left: 650px;
+  }
+}
