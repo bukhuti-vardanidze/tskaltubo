@@ -1,0 +1,108 @@
+            /*  page-1 */
+        @media (max-width: 885px) {
+         .logo{
+             width: 50%;
+         }
+         .nav-li{
+             display: none;
+         }
+         .burger{
+             display: block;
+         }
+         
+                   
+        }
+
+
+        @media (max-width: 785px) {
+            .section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: auto;
+                margin: 15px 0;
+        
+            }
+            .footer{
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        
+        }
+
+        
+                                /*page-2*/
+       @media (max-width: 1150px) {    
+          .section-4 {
+              display: flex;
+            /*  flex-direction: column; */
+            flex-wrap: wrap;
+              height: auto;
+              align-items: center;
+             padding: 10px;
+        }
+        
+        }
+
+
+     @media (max-width: 885px) {
+        .tskaltubo-information{
+            padding: 8px;
+        }
+        .pg-2-section-2-photo{
+            padding: 8px;
+        }
+    
+    }
+    @media (max-width: 440px) {
+     .welcome-h{
+         font-size: 20px;
+     }
+    }
+
+
+                      /*page-3*/
+    @media (max-width: 1150px) {
+        .hotel-container{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            height: auto;
+        }
+    }
+    @media (max-width: 600px) {
+        .hotel-h{
+            font-size: 20px;
+        }
+
+    }
+
+    @media (max-width: 480px) {
+        .read-more{
+           width: 320px;
+           align-items: center;
+        }
+        .read-more-p{
+            font-size: 11px;
+        }
+
+    }
+
+    @media (max-width: 600px) {
+        .hotel-h{
+            font-size: 15px;
+        }
+
+    }
+
+
+        /*page-4*/
+        @media (max-width: 1150px) {  
+        .activities-inf{
+            display: flex;
+            align-items: center;
+        }
+    
+    }
