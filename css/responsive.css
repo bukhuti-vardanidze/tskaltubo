@@ -99,10 +99,40 @@
 
 
         /*page-4*/
-        @media (max-width: 1150px) {  
+      @media (max-width: 1150px) {  
         .activities-inf{
             display: flex;
             align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+            width: auto;
         }
     
     }
+
+
+
+    /*page-5*/
+    @media (max-width: 1250px) {
+        
+        .contact-animation{
+            display: none;
+        }
+    
+    }
+    
+    @media (max-width: 1150px) {  
+        .contact-inf{
+            
+            height: auto;
+            margin-bottom: 10px;
+            padding-left: 8px;
+        }
+        .container{
+            margin:  8px;
+        }
+    
+    }
+
+    
