@@ -630,4 +630,13 @@ input[type="submit"]:hover {
 
 .online-animation{
   margin:0 auto;
+  width: 500px;
+  height: 300px;
+  display: none;
+}
+.online-animation-2{
+  margin:0 auto;
+  width: 300px;
+  height: 300px;
+  display: none;
 }

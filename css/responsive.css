@@ -119,6 +119,9 @@
         .contact-animation{
             display: none;
         }
+        .online-animation{
+            display: block;
+        }
     
     }
     
@@ -136,3 +139,12 @@
     }
 
     
+    @media (max-width: 520px) {
+      .online-animation{
+          display: none;
+      }
+      .online-animation-2{
+          display: block;
+      }
+
+    }
