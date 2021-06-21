@@ -16,7 +16,11 @@
 
 .logo {
   height: 70px;
-  opacity: 100;
+  transition: 1s;
+}
+.logo:hover{
+  transform: scale(1.2);
+ opacity: 0.8;
 }
 .nav-li {
   display: flex;
@@ -26,6 +30,7 @@
   width: 600px;
   height: 50px;
   color: rgba(94, 206, 65, 0.61);
+  transition: 1s;
 }
 a {
   color: rgba(25, 71, 14, 0.774);
@@ -33,6 +38,8 @@ a {
 .nav-li :hover {
   color: rgb(74, 199, 16);
   font-size: 15px;
+  transform: scale(1.2);
+
 }
 .burger{
   color: #4caf50;
@@ -65,15 +72,19 @@ a {
 .section-box {
   width: 250px;
   height: 100%;
-  background: rgb(34, 193, 195);
+ /* background: rgb(34, 193, 195);
   background: linear-gradient(
     0deg,
     rgba(34, 193, 195, 1) 0%,
     rgba(253, 187, 45, 1) 100%
-  );
+  );*/
   display: flex;
   align-items: center;
   flex-direction: column;
+  transition: 1s;
+}
+.section-box:hover{
+  transform: scale(1.1);
 }
 .icon {
   width: 100px;
@@ -86,11 +97,9 @@ a {
 .fa-users {
   font-size: 50px;
   color: rgba(76, 43, 226, 0.342);
+  
 }
-.fa-users :hover {
-  color: blueviolet;
-  font-size: 60px;
-}
+
 
 .h2-section {
   font-size: 25px;
@@ -186,6 +195,11 @@ a {
 }
 .f-logo {
   width: 90%;
+  transition: 1s;
+}
+.f-logo:hover{
+  transform: scale(1.2);
+ opacity: 0.8;
 }
 .footer-icons {
   display: flex;
@@ -194,15 +208,33 @@ a {
 .fa-facebook {
   color: blue;
   font-size: 30px;
+  transition: 1s;
 }
+.fa-facebook:hover{
+     transform: scale(1.2);
+    opacity: 0.8;
+}
+
 .fa-twitter {
   color: rgb(29, 142, 235);
   font-size: 30px;
+  transition: 1s;
 }
+.fa-twitter:hover{
+  transform: scale(1.2);
+ opacity: 0.8;
+}
+
 .fa-youtube {
   color: rgb(235, 12, 12);
   font-size: 30px;
+  transition: 1s;
 }
+.fa-youtube:hover{
+  transform: scale(1.2);
+ opacity: 0.8;
+}
+
 
 /*           page-2               */
 
@@ -254,12 +286,14 @@ a {
   color: black;
   width: 100%;
   padding-top: 15px;
+  font-family: "BPG Irubaqidze", sans-serif;
 }
 .tsk-inf-div {
   margin-top: 20px;
 }
 .tskaltubo-h {
   font-size: 25px;
+  font-family: "Arial GEO BoldItalic", sans-serif;
 }
 
 /*   section-4*/
@@ -280,7 +314,12 @@ a {
   align-items: center;
   margin-top: 15px;
   margin-bottom: 10px;
+  transition: 1s;
 }
+.section-4-box:hover{
+  transform: scale(1.2);
+}
+
 
 .box-photo {
   width: 100%;
@@ -313,6 +352,7 @@ a {
   font-size: 30px;
   color: rgb(32, 32, 32);
   margin-bottom: 10px;
+  font-family: "BPG Mikheil Stefane", sans-serif;
 }
 .hotel {
   width: 100%;
@@ -322,6 +362,7 @@ a {
   font-size: 15px;
   color: rgb(4, 97, 20);
   margin: 7px 5px;
+  font-family: "BPG Phone Sans Italic", sans-serif;
 }
 .read-more {
   background-color: rgb(82, 108, 182);
@@ -334,20 +375,22 @@ a {
   margin: 15px 0px;
   transition: ease-in;
   margin-bottom: 35px;
+  transition: 1s;
 }
 .read-more :hover {
-  width: 50%;
+  
   color: rgb(13, 192, 147);
+  transform: scale(1.2);
 }
 .read-more-p {
   color: rgb(39, 230, 39);
-  transition: ease-in;
+
 }
-.read-more-p :hover {
+/*.read-more-p :hover {
   font-size: 25px;
   color: rgb(120, 196, 21);
   transition: ease-in;
-}
+}*/
 
 .hotel-container {
  max-width: 1170px;
@@ -357,14 +400,20 @@ a {
   align-items: center;
   justify-content: space-evenly;
   padding-top: 10px;
+  
 }
+
 .hotel-photo {
   width: 250px;
   border-radius: 25px;
+  transition: 1s;
 }
-.hotel-photo :hover {
-  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.5);
+.hotel-photo:hover{
+  transform: scale(1.2);
+  opacity: 0.8;
+  box-shadow: 2px 2px 2px #4caf50;
 }
+
 
 /*activities*/
 /*section-1*/
@@ -639,4 +688,6 @@ input[type="submit"]:hover {
   width: 300px;
   height: 300px;
   display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
