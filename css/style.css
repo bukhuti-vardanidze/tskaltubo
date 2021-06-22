@@ -349,20 +349,23 @@ a {
   padding: 8px;
 }
 .hotel-h {
+  font-family: "Arial GEO Bold", sans-serif;
   font-size: 30px;
   color: rgb(32, 32, 32);
   margin-bottom: 10px;
-  font-family: "BPG Mikheil Stefane", sans-serif;
+
 }
 .hotel {
   width: 100%;
   border-radius: 25px;
 }
 .hotel-p {
+  font-family: "ALK Life", sans-serif;
+
   font-size: 15px;
   color: rgb(4, 97, 20);
   margin: 7px 5px;
-  font-family: "BPG Phone Sans Italic", sans-serif;
+  
 }
 .read-more {
   background-color: rgb(82, 108, 182);
