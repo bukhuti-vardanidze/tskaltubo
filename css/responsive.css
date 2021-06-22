@@ -5,13 +5,17 @@
          }
          .nav-li{
              display: none;
+            
          }
+         
+
          .burger{
              display: block;
          }
          
-                   
-        }
+         
+
+    }
 
 
         @media (max-width: 785px) {
@@ -99,18 +103,17 @@
 
 
         /*page-4*/
-      @media (max-width: 1150px) {  
-        .activities-inf{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            height: auto;
-            width: auto;
+        @media (max-width: 900px) {
+            .activities-inf {
+                display: none;
+            }
+            .activities-sect-2 {
+            display: none;
         }
-    
+        .act-scet{
+            display: flex;
+        }
     }
-
 
 
     /*page-5*/
