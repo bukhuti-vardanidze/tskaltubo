@@ -109,6 +109,7 @@ a {
   align-items: center;
   flex-direction: column;
   transition: 1s;
+  margin-top: 20px;
 }
 .section-box:hover{
   transform: scale(1.1);
@@ -143,6 +144,120 @@ a {
   color: chartreuse;
   font-size: 50px;
 }
+
+
+
+       /*image slider*/ 
+
+    .section-slider{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background:#fff;
+    }
+  
+    .slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    .slides{
+      width: 500%;
+      height: 500px;
+      display: flex;
+    }
+    .slides input{
+      display: none;
+    }
+
+    .slide{
+      width: 20%;
+      transition: 2s;
+    }
+
+    .slide img{
+      width: 800px;
+      height: 500px;
+    }
+
+    /*manual slide navigation*/
+
+    .navigation-manual{
+   position: absolute;
+   width: 800px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+    }
+    .manual-btn{
+      border: 2px solid #129b50;
+       padding: 5px;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: 1s;
+
+    }
+    .manual-btn :not(:last-child){
+      margin-right: 40px;
+    }
+    .manual-btn:hover{
+      background: cyan;
+    }
+    #radio1:checked ~ .first{
+      margin-left: 0;
+    }
+    #radio2:checked ~ .first{
+      margin-left: -20%;
+    }
+    #radio3:checked ~ .first{
+      margin-left: -40%;
+    }
+    #radio4:checked ~ .first{
+      margin-left: -60%;
+    }
+
+    /*css for automatic navigation*/
+    .navigation-auto{
+      position: absolute;
+      display: flex;
+      width: 800px;
+      justify-content: center;
+      margin-top: 460px;
+    }
+
+    .navigation-auto div{
+      border: 2px solid #4caf50;
+      padding: 5px;
+      border-radius: 10px;
+      transition: 1s;
+
+    }
+    .navigation-auto div:not(:last-child){
+      margin-right: 40px;
+      
+    }
+  
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+      background: darkblue;
+    }
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+      background: darkblue;
+    }
+    #radio3:checked ~ .navigation-auto .auto-btn3{
+      background: darkblue;
+    }
+    #radio4:checked ~ .navigation-auto .auto-btn4{
+      background: darkblue;
+    }
+
+
+
+
 
 /*footer*/
 .footer {
@@ -496,6 +611,7 @@ a {
   height: 550px;
   display: flex;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .activites-image-2 {
   background-image: url(../images/spring-6-interier.jpg);
@@ -634,30 +750,7 @@ input[type="submit"]:hover {
 }
 
 /*section-5*/
-.about-me {
-  width: 1170px;
-  height: 470px;
 
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 15px;
-}
-.about-me-inf {
-  max-width: 350px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.me {
-  width: 100%;
-  border-radius: 50px;
-  border-bottom: blue;
-}
 
 /* scetion-5*/
 .contact-animation {
@@ -666,10 +759,12 @@ input[type="submit"]:hover {
   width: 100%;
   height: 600px;
   margin: 15px auto;
+  
 }
 .background-an {
   position: absolute;
   width: 100%;
+  border-radius: 20px;
 }
 /*ვიცი რომ ვარღვევ სურათის ნორმალურ ფორმას :D */
 .car-an {
