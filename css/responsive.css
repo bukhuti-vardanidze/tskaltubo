@@ -1,11 +1,18 @@
             /*  page-1 */
         @media (max-width: 885px) {
          .logo{
-             width: 50%;
+             width: 100px;
+             margin-left: 25px;
+         }
+         .header{
+             height: 180px;
          }
          .nav-li{
-             display: none;
-            
+             flex-direction: column;
+             margin-top: 70px;
+             align-items: center;
+             padding-top: 15px;
+             
          }
          
 
@@ -35,6 +42,12 @@
             }
         
         }
+     /*   @media (max-width: 450px) {
+        .section-slider{
+            width: auto;
+            height: auto; 
+        }
+    }
 
         
                                 /*page-2*/
