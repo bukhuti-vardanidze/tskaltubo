@@ -4,7 +4,7 @@
   width: 100%;
   height:570px;
 }*/
-.header {
+/*.header {
   width: 100%;
   height: 80px;
   background-color: #fff;
@@ -28,7 +28,7 @@
 }
 .navigation{
   display: flex;
-  
+  margin-left: 5px;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 20px;
@@ -54,17 +54,19 @@
 }
 .burger{
   color: #4caf50;
-  font-size: 35px;margin-top : 23px;
+  font-size: 35px;
+  margin-top : 23px;
 
   display: none; 
  }
+*/
 
 
 
 
-
-/* .logo{
+ .logo{
   height: 70px;
+  display: flex;
 }
  .nav-bar{
    display: flex;
@@ -74,12 +76,22 @@
  }
  .nav-ul{
    display: flex;
+   margin-top: 20px;
+   margin-right: 15px;
+   font-family: "ALK Sanet", sans-serif;
+
  }
  .li{
    margin: 10px;
  }
+ .burger{
+  color: #4caf50;
+  font-size: 35px;
+  margin-top : 23px;
+  display: none; 
+ }
 
-*/
+
 
 
 
