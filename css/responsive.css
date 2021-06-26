@@ -43,6 +43,10 @@
       .navbar-links.active{
           display: block;
       }
+
+      .navigation-auto{
+          display: none;
+      }
     }
 
 
