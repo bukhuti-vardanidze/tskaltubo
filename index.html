@@ -12,32 +12,17 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body >
-   <!-- <div class="header-mainbox">-->
+   
       
-    <!--    <header class="header">
-            <a href="index.html">
-                <img class="logo" src="images/logo.png" alt="logo">
-            </a>
-            <nav class="navigation">
-                <ul class="nav-li">
-                    <li class="li"> <a href="index.html"> მთავარი </a> </li>
-                    <li class="li"> <a href="about.html"> წყალტუბოს შესახებ </a> </li>
-                    <li class="li"> <a href="hotels&resolt.html"> სასტუმროები </a>  </li>
-                    <li class="li"> <a href="activites.html"> აქტივობები </a></li>
-                    <li class="li">  <a href="contact.html"> კონტაქტი </a>  </li>
-                </ul>
-              </nav>
-                 <div class="burger">
-                  <i class="fas fa-align-center"></i>
+   
 
-                </div>
-        </header>-->
+
           <header>
-            <div class="nav-bar">
+            <div class="navbar">
             <a href="index.html">
               <img class="logo" src="images/logo.png" alt="logo">
           </a>
-          <nav class="navbar" id="navlink">
+          <nav class="navbar-links" id="navBarlinks">
               <ul class="nav-ul">
                   <li class="li"><a href="index.html"> მთავარი </a> </li>
                   <li class="li"><a href="about.html"> წყალტუბოს შესახებ </a> </li>
@@ -46,12 +31,21 @@
                   <li class="li">  <a href="contact.html"> კონტაქტი </a>  </li>
               </ul>
             </nav>
-            <div class="burger" id="burgerbar">
-              <i class="fas fa-align-center"></i>
+            <div class="burger" id="burgerbar" style="cursor: pointer;">
+              <i class="fas fa-bars"></i>
 
             </div>
 
           </div>
+
+          <script type="text/javascript">
+          let navbarLinks = document.getElementById('navBarlinks');
+          let Burger = document.getElementById('burgerbar');
+
+         Burger.addEventListener('click', function()  {
+           navbarLinks.classList.toggle('active');
+        })
+          </script>
           </header>
 
 
@@ -67,12 +61,12 @@
 
     <section class="section">
         <div class="section-box">
-            <div class="icon"><a href=""><i class="fas fa-users"> </a></i> </div>
+            <div class="icon"><a href="#"><i class="fas fa-users"> </i></a> </div>
             <h2 class="h2-section"> მოსახლეობა </h2>
-            <p class="p-section"> 11 281 +</p>
+            <p class="p-section"> 11 281 + </p>
         </div>
         <div class="section-box">
-            <div class="icon"> <a href="https://www.google.ge/maps/place/%E1%83%AC%E1%83%A7%E1%83%90%E1%83%9A%E1%83%A2%E1%83%A3%E1%83%91%E1%83%9D/@42.3241594,42.5754323,14.52z/data=!4m5!3m4!1s0x405c8a7d2d525d33:0x8cf3b4d557f01f17!8m2!3d42.3284986!4d42.6003682?hl=ka"> <i class="fas fa-globe-europe"></a></i></div>
+            <div class="icon"> <a href="https://www.google.ge/maps/place/%E1%83%AC%E1%83%A7%E1%83%90%E1%83%9A%E1%83%A2%E1%83%A3%E1%83%91%E1%83%9D/@42.3241594,42.5754323,14.52z/data=!4m5!3m4!1s0x405c8a7d2d525d33:0x8cf3b4d557f01f17!8m2!3d42.3284986!4d42.6003682?hl=ka"> <i class="fas fa-globe-europe"></i></a></div>
             <h2 class="h2-section"> მდებარეობა </h2>
             <p class="p-section"> <a href="https://www.google.ge/maps/place/%E1%83%AC%E1%83%A7%E1%83%90%E1%83%9A%E1%83%A2%E1%83%A3%E1%83%91%E1%83%9D/@42.3241594,42.5754323,14.52z/data=!4m5!3m4!1s0x405c8a7d2d525d33:0x8cf3b4d557f01f17!8m2!3d42.3284986!4d42.6003682?hl=ka"> 42°20′00″ ჩ. გ. 42°36′00″ ა. გ. </a></p>
         </div>
@@ -201,11 +195,13 @@
            <a href="https://www.youtube.com/watch?v=NlN8ZpE7zd4"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
-      <script src="script.js"></script>
+     
     </footer>
      <div class="last-p">
       <p> 2021 © All Rights Reserved //ბუხუტი ვარდანიძე  //  Bukhuti Vardanidze</p>
        </div>
     
+    
+       <script src="script.js"></script>
 </body>
 </html>

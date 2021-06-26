@@ -14,31 +14,41 @@
 </head>
 
     <body >
-        <div class="header-mainbox-pg-2">
-          
-            <header class="header">
-                <a href="index.html">
-                    <img class="logo" src="images/logo.png" alt="logo">
-                </a>
-                <nav>
-                    <ul class="nav-li">
-                        <li class="li"><a href="index.html"> მთავარი </a> </li>
-                        <li class="li"><a href="about.html"> წყალტუბოს შესახებ </a> </li>
-                        <li class="li"><a href="hotels&resolt.html"> სასტუმროები </a>  </li>
-                        <li class="li"> <a href="activites.html"> აქტივობები </a></li>
-                        <li class="li">  <a href="contact.html"> კონტაქტი </a>  </li>
-                    </ul>
-                </nav>
-                <div class="burger">
-                  <i class="fas fa-align-center"></i>
+      <header>
+        <div class="navbar">
+        <a href="index.html">
+          <img class="logo" src="images/logo.png" alt="logo">
+      </a>
+      <nav class="navbar-links" id="navBarlinks">
+          <ul class="nav-ul">
+              <li class="li"><a href="index.html"> მთავარი </a> </li>
+              <li class="li"><a href="about.html"> წყალტუბოს შესახებ </a> </li>
+              <li class="li"><a href="hotels&resolt.html"> სასტუმროები </a>  </li>
+              <li class="li"> <a href="activites.html"> აქტივობები </a></li>
+              <li class="li">  <a href="contact.html"> კონტაქტი </a>  </li>
+          </ul>
+        </nav>
+        <div class="burger" id="burgerbar" style="cursor: pointer;">
+          <i class="fas fa-bars"></i>
 
-                </div>
-            </header>
-            </div>
+        </div>
+
+      </div>
+
+      <script type="text/javascript">
+      let navbarLinks = document.getElementById('navBarlinks');
+      let Burger = document.getElementById('burgerbar');
+
+     Burger.addEventListener('click', function()  {
+       navbarLinks.classList.toggle('active');
+    })
+      </script>
+      </header>
+      
             <section>
                 <div class="contact-inf">
                    <h1 class="contact-h"> საკონტაქტო ინფრომაცია</h1>
-                   <p class="contact-p"> სასურველი იქნება თუ საკონტაქტო ინფორმაციას შეასვებთ, გაგვიზიარებთ თქვენს გამოცდილებას გვერდთან მიმართებაში (რასაც აუცილებლად გავითვალისწინებთ) და თუ რაიმე პრობლემა შეგექმნთ ადმინისტრაცია თქვენს გვერდითაა</p>
+                   <p class="contact-p"> სურვილისამებრ შეავსეთ საკონტაქტო ინფორმაცია </p>
                 </div>
             </section>
 
