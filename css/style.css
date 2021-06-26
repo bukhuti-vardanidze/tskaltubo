@@ -555,7 +555,7 @@
   margin: 7px 5px;
   
 }
-.read-more {
+/*.read-more {
   background-color: rgb(82, 108, 182);
   width: 450px;
   height: 40px;
@@ -572,7 +572,7 @@
   
   color: rgb(13, 192, 147);
   transform: scale(1.2);
-}
+}*/
 .read-more-p {
   color: rgb(39, 230, 39);
 
@@ -591,6 +591,7 @@
   align-items: center;
   justify-content: space-evenly;
   padding-top: 10px;
+  margin: 5px 0;
   
 }
 
@@ -663,7 +664,7 @@
   width: 220px;
   height: 50px;
   border-radius: 25px;
-  background-color: aqua;
+  background-color: rgb(41, 236, 220);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -674,7 +675,7 @@
 }
 .activities-read-more:hover{
   transform: scale(1.2);
-  background-color: rgb(6, 180, 73);
+  background-color: rgb(72, 187, 223);
   
 }
 
