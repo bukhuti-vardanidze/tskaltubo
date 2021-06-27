@@ -69,14 +69,14 @@
   transition: 1s;
 }
 .logo:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   height: 80px;
 }
  .navbar{
    display: flex;
    justify-content: space-between;
-   
    padding: 25px;
+  
  }
  .nav-ul{
    display: flex;
@@ -122,7 +122,7 @@
   background-size: cover;
   display: flex;
   position: relative;
-  z-index: 1;
+  
 }
 
 /*section*/
@@ -170,6 +170,7 @@
 .h2-section {
   font-size: 25px;
   margin-top: 10px;
+  color: #044612;
   font-family: "ALK Sanet", sans-serif;
 }
 .p-section {
@@ -244,7 +245,7 @@
       margin-right: 40px;
     }
     .manual-btn:hover{
-      background: cyan;
+      background: rgb(0, 255, 85);
     }
     #radio1:checked ~ .first{
       margin-left: 0;
@@ -261,11 +262,11 @@
 
     /*css for automatic navigation*/
     .navigation-auto{
-      position: absolute;
+      position: relative;
       display: flex;
       width: 800px;
       justify-content: center;
-      margin-top: 460px;
+      margin-top: 40px /*460px*/;
     }
 
     .navigation-auto div{
@@ -281,20 +282,27 @@
     }
   
     #radio1:checked ~ .navigation-auto .auto-btn1{
-      background: darkblue;
+      background: rgb(0, 139, 0);
     }
     #radio2:checked ~ .navigation-auto .auto-btn2{
-      background: darkblue;
+      background: rgb(0, 139, 0);
     }
     #radio3:checked ~ .navigation-auto .auto-btn3{
-      background: darkblue;
+      background: rgb(0, 139, 0);
     }
     #radio4:checked ~ .navigation-auto .auto-btn4{
-      background: darkblue;
+      background: rgb(0, 139, 0);
     }
 
-
-
+   .index-anim{
+    margin:0 auto;
+  width: 320px;
+  height: 300px;
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+   }
+     
 
 
 /*footer*/
@@ -334,6 +342,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "ALK Sanet", sans-serif;
 }
 .footer-information-4 {
   display: block;
@@ -539,7 +548,7 @@
 .hotel-h {
   font-family: "Arial GEO Bold", sans-serif;
   font-size: 30px;
-  color: rgb(32, 32, 32);
+  color: rgb(26, 88, 17);
   margin-bottom: 10px;
 
 }
@@ -601,7 +610,7 @@
   transition: 1s;
 }
 .hotel-photo:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: 0.8;
   box-shadow: 2px 2px 2px #4caf50;
 }
@@ -687,9 +696,27 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-wrap: wrap;
 }
 
-
+.activities-anim{
+  margin:0 auto;
+  width: 300px;
+  height: 300px;
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
+.activities-anim-2{
+  margin:0 auto;
+  width: 300px;
+  height: 300px;
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+}
 
 
 

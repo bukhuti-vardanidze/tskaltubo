@@ -1,5 +1,6 @@
         
-   /*  let navbarLinks = document.getElementById('navBarlinks');
+   /* burger*/
+   /* let navbarLinks = document.getElementById('navBarlinks');
      let Burger = document.getElementById('burgerbar');
 
      Burger.addEventListener('click', function()  {
