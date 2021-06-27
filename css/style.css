@@ -58,9 +58,19 @@
  }
 */
 
+  
+ .header{
+    position: fixed; 
+    top: 0;
+     left: 0;
+      width: 100%;
+       z-index: 10000000000000000000000;
+        background: #fff;
 
-
-
+  }
+  body{
+padding-top: 120px;
+}
  .logo{
   height: 70px;
   
