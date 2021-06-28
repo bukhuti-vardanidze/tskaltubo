@@ -1,62 +1,6 @@
 /*header*/
 
 
-/*.header {
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  z-index: 2;
-  position: fixed;
-  
-}
-
-.logo {
-  height: 70px;
-  transition: 1s;
-  z-index: 1;
-  display: flex;
-  z-index: 1;
-}
-.logo:hover{
-  transform: scale(1.2);
-  opacity: 0.8;
-}
-.navigation{
-  display: flex;
-  margin-left: 5px;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  width: 600px;
-  height: 50px;
-  color: rgba(94, 206, 65, 0.61);
-  transition: 1s;
-  font-family: "ALK Sanet", sans-serif;
-  z-index: 2;
-}
-.nav-li{
-  display: flex;
-}
-
-     a {
-  color: rgba(25, 71, 14, 0.774);
-}
-.navigation :hover {
-  color: rgb(74, 199, 16);
-  font-size: 15px;
-  transform: scale(1.2);
-
-}
-.burger{
-  color: #4caf50;
-  font-size: 35px;
-  margin-top : 23px;
-
-  display: none; 
- }
-*/
 
   
  .header{
@@ -120,7 +64,7 @@ padding-top: 120px;
 
 
 
-/* images-animation*/
+/* background-section*/
 .background-photo {
   background-image: url(../images/tskaltubo.jpg);
   max-width: 1170px;
@@ -304,9 +248,11 @@ padding-top: 120px;
       background: rgb(0, 139, 0);
     }
 
+    /*index-animation*/
+
    .index-anim{
     margin:0 auto;
-  width: 320px;
+  max-width: 300px;
   height: 300px;
   display: none;
   margin-top: 20px;
@@ -628,11 +574,7 @@ padding-top: 120px;
 
 /*activities*/
 /*section-1*/
-.act-scet{
-  display: none;
-  color: red;
-  font-size: 15px;
-}
+
 
 
                /**/
@@ -643,14 +585,19 @@ padding-top: 120px;
   height: 550px;
   display: flex;
 
+
 }
 .activities-p {
   width: 50%;
   padding-top: 155px;
   padding-left: 25px;
   align-items: center;
-  background-color: #cccccc2b;
+  
   font-family: "ALK Life", sans-serif;
+ transition: 1s;
+}
+.activities-p:hover{
+  background-color: #6b997f2c;
 }
 
 .activites-image {
@@ -660,7 +607,9 @@ padding-top: 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
+
 /*section-2*/
 .activities-sect-2 {
   margin: 0 auto;
@@ -683,13 +632,15 @@ padding-top: 120px;
   width: 220px;
   height: 50px;
   border-radius: 25px;
-  background-color: rgb(41, 236, 220);
+  background: rgb(42,237,74);
+  background: linear-gradient(165deg, rgba(42,237,74,0.7598389697675946) 26%, rgba(10,233,116,0.6533963927367823) 77%);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 40px;
   font-size: 15px;
   margin-left: 45px;
+  margin-bottom: 10px;
   transition: 1s;
 }
 .activities-read-more:hover{
@@ -698,6 +649,16 @@ padding-top: 120px;
   
 }
 
+/*section-3*/
+.activities-sect-3 {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
  
 .activites-image-3 {
   background-image: url(../images/civitba.jpg);
@@ -711,12 +672,12 @@ padding-top: 120px;
 
 .activities-anim{
   margin:0 auto;
-  width: 300px;
+ max-width: 305px;
   height: 300px;
   display: none;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: none;
+  display: block;
 }
 .activities-anim-2{
   margin:0 auto;
@@ -910,15 +871,16 @@ input[type="submit"]:hover {
 
 .online-animation{
   margin:0 auto;
-  width: 500px;
+ max-width: 500px;
   height: 300px;
   display: none;
 }
 .online-animation-2{
   margin:0 auto;
-  width: 300px;
+ max-width:  305px;
   height: 300px;
   display: none;
   margin-top: 20px;
   margin-bottom: 20px;
+ 
 }

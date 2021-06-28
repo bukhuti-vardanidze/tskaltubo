@@ -145,20 +145,26 @@
 
         /*page-4*/
         @media (max-width: 900px) {
-            .activities-inf {
-                display: none;
-            }
-            .activities-sect-2 {
-            display: none;
+        /*section-1*/
+       .activities-p {
+        margin: 0 auto;
+            width: 100%;
+            padding-top: 15px;
+        } 
+      .activities-read-more{
+        margin: 15px auto;
+        
         }
-        .act-scet{
-            display: flex;
+        .activities-inf {
+            flex-direction: column;
         }
-        .activities-anim{
-            display: block;
+        /*section-2*/
+        .activities-sect-2{
+            flex-direction:column-reverse;
         }
-         .activities-anim-2{
-         display: block; 
+        /*section-3*/
+        .activities-sect-3{
+            flex-direction:column;
         }
     }
 
@@ -182,9 +188,7 @@
             margin-bottom: 10px;
             padding-left: 8px;
         }
-        .container{
-            margin:  8px;
-        }
+        
     
     }
 
